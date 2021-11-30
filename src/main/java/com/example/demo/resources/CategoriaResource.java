@@ -14,7 +14,7 @@ import com.example.demo.domain.Categoria;
 public class CategoriaResource {
 	
 	@RequestMapping(method = RequestMethod.GET)
-	public List testeRest() {
+	public List<Categoria> testeRest() {
 		
 		Categoria cat1 = new Categoria(1,"Informatica");
 		Categoria cat2 = new Categoria(2,"Escritorio");
